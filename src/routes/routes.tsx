@@ -6,6 +6,8 @@ import Cart from "../components/layouts/Cart/Cart";
 import App from "../App";
 import ProductDetails from "../components/productDetails/ProductDetails";
 import Review from "../pages/reviews/Review";
+import AboutUs from "../pages/home/AboutUs";
+import Contact from "../pages/home/Contact";
 
 const routes = createBrowserRouter([
     {
@@ -22,7 +24,16 @@ const routes = createBrowserRouter([
             {
                 path: "/review",
                 element: <Review />
-            }
+            },
+            {
+                path: "/about",
+                element: <AboutUs/>
+            },
+            {
+                path: "/contact",
+                element: <Contact/>
+            },
+         
         ],
         
     },

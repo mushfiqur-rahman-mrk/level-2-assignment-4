@@ -73,9 +73,9 @@ const NavBar = () => {
                 <div className="md:hidden flex items-center">
                     <button onClick={() => setIsOpen(!isOpen)} aria-label="Toggle Menu">
                         {isOpen ? (
-                            <IoCloseCircleOutline className="h-8 w-8 text-white" />
+                            <IoCloseCircleOutline className="h-8 w-8 text-gray-400" />
                         ) : (
-                            <CiMenuBurger className="h-8 w-8 text-white" />
+                            <CiMenuBurger className="h-8 w-8 text-gray-400" />
                         )}
                     </button>
                 </div>
@@ -99,7 +99,7 @@ const NavBar = () => {
                         Products
                     </NavLink>
                     <NavLink 
-                        to={'/'} 
+                        to={'/review'} 
                         onClick={() => setIsOpen(false)} 
                         className={({ isActive }) => getActiveLinkClass(isActive)}
                     >

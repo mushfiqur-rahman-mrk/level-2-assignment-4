@@ -8,7 +8,7 @@ const Discover = () => {
             <div className="flex font-camping flex-col md:flex-row items-center bg-slate-100 h-auto md:h-72 gap-5 md:gap-10 p-5 md:p-10">
                 <div className="relative h-64 w-full md:flex-1">
                     <video
-                        src="/src/assets/9113144-uhd_3840_2160_30fps.mp4"
+                        src="https://thumbsnap.com/i/UfvHSdVU.mp4"
                         className="absolute inset-0 w-full h-full object-cover"
                         autoPlay
                         muted
